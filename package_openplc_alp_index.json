@@ -217,7 +217,7 @@
               "host": "i686-mingw32",
               "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
-              "checksum": "SHA256:f0b2c939990f4935564b0f16a3ca570032f194f83043d0d90226c47ccf355f4f",
+              "checksum": "SHA-256:f0b2c939990f4935564b0f16a3ca570032f194f83043d0d90226c47ccf355f4f",
               "size": "4459609"
             },
             {
