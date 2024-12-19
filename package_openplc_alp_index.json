@@ -217,29 +217,29 @@
               "host": "i686-mingw32",
               "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
-              "checksum": "SHA-256:c75c4218c37b7de29bc8b0cd2d0748754340edec99ff4f504c50e424e5bfd7c9",
-              "size": "4459609"
+              "checksum": "SHA-256:e519ecb0c7c85c9d982eed3ad152149477a35a0cd0146adeb420bdd4cd9a94e3",
+              "size": "8238445"
             },
             {
               "host": "x86_64-apple-darwin",
               "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
-              "checksum": "SHA-256:c75c4218c37b7de29bc8b0cd2d0748754340edec99ff4f504c50e424e5bfd7c9",
-              "size": "1883628"
+              "checksum": "SHA-256:e519ecb0c7c85c9d982eed3ad152149477a35a0cd0146adeb420bdd4cd9a94e3",
+              "size": "8238445"
             },
             {
               "host": "x86_64-pc-linux-gnu",
               "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
-              "checksum": "SHA-256:c75c4218c37b7de29bc8b0cd2d0748754340edec99ff4f504c50e424e5bfd7c9",
-              "size": "2054022"
+              "checksum": "SHA-256:e519ecb0c7c85c9d982eed3ad152149477a35a0cd0146adeb420bdd4cd9a94e3",
+              "size": "8238445"
             },
             {
               "host": "i686-pc-linux-gnu",
               "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
-              "checksum": "SHA-256:c75c4218c37b7de29bc8b0cd2d0748754340edec99ff4f504c50e424e5bfd7c9",
-              "size": "2054022"
+              "checksum": "SHA-256:e519ecb0c7c85c9d982eed3ad152149477a35a0cd0146adeb420bdd4cd9a94e3",
+              "size": "8238445"
             }
           ]
         },
