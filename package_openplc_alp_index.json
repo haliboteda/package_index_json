@@ -217,28 +217,28 @@
               "host": "i686-mingw32",
               "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
-              "checksum": "SHA-256:f0b2c939990f4935564b0f16a3ca570032f194f83043d0d90226c47ccf355f4f",
+              "checksum": "SHA-256:c75c4218c37b7de29bc8b0cd2d0748754340edec99ff4f504c50e424e5bfd7c9",
               "size": "4459609"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools_mac.tar.gz",
-              "archiveFileName": "STM32Tools_mac.tar.gz",
-              "checksum": "SHA-256:62f4583640531622e7507b38cabb0764e20b99f9df7d0de8e28b8d70938f34b0",
+              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools.tar.gz",
+              "archiveFileName": "STM32Tools.tar.gz",
+              "checksum": "SHA-256:c75c4218c37b7de29bc8b0cd2d0748754340edec99ff4f504c50e424e5bfd7c9",
               "size": "1883628"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools_linux.zip",
-              "archiveFileName": "STM32Tools_linux.zip",
-              "checksum": "SHA-256:efa8b1ba423074cfce8e839a4d53845097471287ccdfae3498b46c16a2d1b531",
+              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools.tar.gz",
+              "archiveFileName": "STM32Tools.tar.gz",
+              "checksum": "SHA-256:c75c4218c37b7de29bc8b0cd2d0748754340edec99ff4f504c50e424e5bfd7c9",
               "size": "2054022"
             },
             {
               "host": "i686-pc-linux-gnu",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools_linux.zip",
-              "archiveFileName": "STM32Tools_linux.zip",
-              "checksum": "SHA-256:efa8b1ba423074cfce8e839a4d53845097471287ccdfae3498b46c16a2d1b531",
+              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools.tar.gz",
+              "archiveFileName": "STM32Tools.tar.gz",
+              "checksum": "SHA-256:c75c4218c37b7de29bc8b0cd2d0748754340edec99ff4f504c50e424e5bfd7c9",
               "size": "2054022"
             }
           ]
