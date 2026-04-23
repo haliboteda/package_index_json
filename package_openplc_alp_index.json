@@ -6,6 +6,41 @@
       "maintainer": "OpenPLC_Alpha",
       "email": "gdys0033@gmail.com",
       "platforms": [
+          {
+          "name": "OpenPLC_Alpha H743IIKx",
+          "architecture": "stm32",
+          "version": "0.1.3-pre",
+          "category": "Contributed",
+          "url": "https://github.com/haliboteda/open_plc_arduino/archive/refs/tags/v0.1.3-pre.zip",
+          "archiveFileName": "open_plc_arduino-0.1.3-pre.zip",
+          "checksum": "SHA-256:70A7F40EFCE1688BCD753603364A159CE9D34B661FC9555C7151C9C57AFA113B",
+          "size": "10995451",
+          "boards": [
+            {      "name": "H743IIKx Alpha"  }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "OpenPLC_Alpha",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "12.2.1-1.2"
+            },
+            {
+              "packager": "OpenPLC_Alpha",
+              "name": "xpack-openocd",
+              "version": "0.12.0-1"
+            },
+            {
+              "packager": "OpenPLC_Alpha",
+              "name": "STM32Tools",
+              "version": "0.1.2"
+            },
+            {
+              "packager": "OpenPLC_Alpha",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
+        },
         {
           "name": "OpenPLC_Alpha H743IIKx",
           "architecture": "stm32",
