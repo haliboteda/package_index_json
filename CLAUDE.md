@@ -4,6 +4,8 @@
 
 这个仓库只有一个文件：`package_openplc_alp_index.json`。Arduino IDE 的「其他开发板管理器地址」指向它的 raw URL，用户点「安装 OpenPLC_Alpha」时，IDE 读的就是这份索引。
 
+> 产品全貌：`<AI-Skills>/OpenPLC/docs/OVERVIEW.md`（本机位置见 `SKILLS_REPO`）。
+
 ## 它在整条链路上的位置
 
 ```
@@ -32,13 +34,13 @@ $A15/packages/OpenPLC_Alpha/hardware/stm32/<版本>/      ← 文档里的 $CORE
 
 ## ⚠️ 共享文档不在这个仓库里
 
-产品的需求、架构、硬件事实、协作规矩，**全部在 `open_plc_cube_ide/docs/` 下**，那里是唯一出处。
+| 找什么 | 去哪 |
+|---|---|
+| 六个仓库怎么分工、需求做到哪一步、跨仓镜像清单、写文档的约定 | `<AI-Skills>/OpenPLC/docs/`，入口 `OVERVIEW.md` |
+| 板卡包本身（`$CORE_LIVE` 与 `$CORE_REPO` 的关系、怎么编译） | `open_plc_arduino` 根目录的 `CLAUDE.md` |
+| 引脚怎么接 | `Hardware` 仓库的原理图 / netlist，结论记在 `$BOOT/docs/design/HARDWARE-FACTS.md` |
 
-```
-git clone git@github.com:haliboteda/open_plc_cube_ide.git
-```
-
-然后读它根目录的 `CLAUDE.md` —— **换机器要 clone 什么、装什么、配什么，那一份写全了**。
+**这个仓库只管这一份索引 JSON，不存任何产品级事实。**
 
 ## 语言
 
