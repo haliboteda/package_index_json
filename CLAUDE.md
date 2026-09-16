@@ -4,7 +4,7 @@
 
 这个仓库只有一个文件：`package_openplc_alp_index.json`。Arduino IDE 的「其他开发板管理器地址」指向它的 raw URL，用户点「安装 OpenPLC_Alpha」时，IDE 读的就是这份索引。
 
-> 产品文档在 `OpenPLC_Docs`（`$PROD`），入口 `README.md`。
+> **产品文档在 `OpenPLC_Docs`**（`$PROD`）—— 全部文档和待决的问题，入口它的 `README.md`（本机位置见 `DOCS_REPO`）。
 
 ## 它在整条链路上的位置
 
