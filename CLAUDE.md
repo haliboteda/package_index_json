@@ -12,7 +12,7 @@
 package_openplc_alp_index.json          ← 本仓库
         │ platforms[].url
         ▼
-github.com/haliboteda/open_plc_arduino/archive/refs/tags/v<版本>.tar.gz
+github.com/haliboteda/open_plc_arduino/releases/download/<版本>/open_plc_arduino-<版本>.tar.gz
         │ IDE 解压后
         ▼
 $A15/packages/OpenPLC_Alpha/hardware/stm32/<版本>/      ← 文档里的 $CORE_LIVE
@@ -26,11 +26,11 @@ $A15/packages/OpenPLC_Alpha/hardware/stm32/<版本>/      ← 文档里的 $CORE
 
 平时不碰。要加一个新版本时，三件事缺一不可：
 
-1. `open_plc_arduino` 上打好 tag，**GitHub 的 tarball 必须真的能下下来**
-2. 往 `platforms[]` 里加一条，`url` / `archiveFileName` / `checksum` / `size` 都要对得上那个 tarball
+1. `open_plc_arduino` 上打好 tag，用 `git -c core.autocrlf=false archive --format=tar.gz --prefix=open_plc_arduino-<版本>/` 打包，作为 GitHub release 的附件上传。**不要用 GitHub 按 tag 自动生成的 zip**：它把每个文件标成 DOS 创建的，arduino-cli 解压时丢掉 Unix 权限，Linux / macOS 上 `prebuild.sh` 和网口发现就不能执行（0.1.3 踩过，2026-10-03 改成现在这样）。`STM32Tools` 同样发 tar.gz，要执行的文件在 git 里记成 `100755`
+2. 往 `platforms[]` 里加一条，`url` / `archiveFileName` / `checksum` / `size` 都要对得上那个附件
 3. **`checksum` 是 `SHA-256:<hex>`，算错了 IDE 只会说"下载失败"**，不会告诉你是校验不过
 
-改完在**一台没装过这个板卡包的机器**上走一遍安装，才算验证过。
+改完在**一台没装过这个板卡包的机器**上走一遍安装，才算验证过；Linux 上还要编一个例程，确认脚本能执行。
 
 ## ⚠️ 共享文档不在这个仓库里
 
