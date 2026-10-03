@@ -11,10 +11,10 @@
           "architecture": "stm32",
           "version": "0.1.3",
           "category": "Contributed",
-          "url": "https://github.com/haliboteda/open_plc_arduino/archive/refs/tags/0.1.3.zip",
-          "archiveFileName": "open_plc_arduino-0.1.3.zip",
-          "checksum": "SHA-256:F5C60C9197D3E29974365A8BAC7C6CCE8B8EAE6FF4A8A3667606FF3BEFE11ED4",
-          "size": "18986779",
+          "url": "https://github.com/haliboteda/open_plc_arduino/releases/download/0.1.3/open_plc_arduino-0.1.3.tar.gz",
+          "archiveFileName": "open_plc_arduino-0.1.3.tar.gz",
+          "checksum": "SHA-256:EAA84443588C2B593F1C884E5D76F7F08E27EB78CE497CDACE97D1196CE7A096",
+          "size": "17489354",
           "boards": [
             {      "name": "H743IIKx Alpha"  }
           ],
@@ -322,29 +322,29 @@
               "host": "i686-mingw32",
               "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/0.1.3/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
-              "checksum": "SHA-256:B2F9D413220722486B5CE5EAE3EC25ED46D4601E394925D2E39F1D530CFCD677",
-              "size": "13287279"
+              "checksum": "SHA-256:AD19277C80366BC247E34EC395AAC3B0F7BBC515EF849974A0BE649FD7C93A55",
+              "size": "13287280"
             },
             {
               "host": "x86_64-apple-darwin",
               "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/0.1.3/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
-              "checksum": "SHA-256:B2F9D413220722486B5CE5EAE3EC25ED46D4601E394925D2E39F1D530CFCD677",
-              "size": "13287279"
+              "checksum": "SHA-256:AD19277C80366BC247E34EC395AAC3B0F7BBC515EF849974A0BE649FD7C93A55",
+              "size": "13287280"
             },
             {
               "host": "x86_64-pc-linux-gnu",
               "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/0.1.3/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
-              "checksum": "SHA-256:B2F9D413220722486B5CE5EAE3EC25ED46D4601E394925D2E39F1D530CFCD677",
-              "size": "13287279"
+              "checksum": "SHA-256:AD19277C80366BC247E34EC395AAC3B0F7BBC515EF849974A0BE649FD7C93A55",
+              "size": "13287280"
             },
             {
               "host": "i686-pc-linux-gnu",
               "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/0.1.3/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
-              "checksum": "SHA-256:B2F9D413220722486B5CE5EAE3EC25ED46D4601E394925D2E39F1D530CFCD677",
-              "size": "13287279"
+              "checksum": "SHA-256:AD19277C80366BC247E34EC395AAC3B0F7BBC515EF849974A0BE649FD7C93A55",
+              "size": "13287280"
             }
           ]
         },
