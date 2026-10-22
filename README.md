@@ -1,15 +1,11 @@
-# OpenPLC_Alpha board package index
+# OpenPLC_Alpha board package index (moved)
 
-Board Manager index for the OpenPLC_Alpha (STM32H743IIKx) Arduino board package.
+This repository has moved to **[OpenPLCs/OpenPLC_Arduino_PKG_Json](https://github.com/OpenPLCs/OpenPLC_Arduino_PKG_Json)**.
 
-## Install in Arduino IDE
+In Arduino IDE, **File → Preferences → Additional boards manager URLs**, replace the old address with:
 
-1. **File → Preferences → Additional boards manager URLs**, add:
+```
+https://raw.githubusercontent.com/OpenPLCs/OpenPLC_Arduino_PKG_Json/master/package_openplc_alp_index.json
+```
 
-   ```
-   https://raw.githubusercontent.com/haliboteda/package_index_json/master/package_openplc_alp_index.json
-   ```
-
-2. **Tools → Board → Boards Manager**, search `OpenPLC_Alpha`, install the latest version.
-
-This address stays the same across releases; every version is listed in the one index file.
+The index file here is kept in sync once so that existing installations keep working; it already points at the new repositories.

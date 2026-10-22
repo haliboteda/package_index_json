@@ -2,19 +2,18 @@
   "packages": [
     {
       "name": "OpenPLC_Alpha",
-      "websiteURL": "https://github.com/haliboteda",
+      "websiteURL": "https://github.com/OpenPLCs",
       "maintainer": "OpenPLC_Alpha",
-      "email": "gdys0033@gmail.com",
       "platforms": [
           {
           "name": "OpenPLC_Alpha H743IIKx",
           "architecture": "stm32",
           "version": "0.1.3",
           "category": "Contributed",
-          "url": "https://github.com/haliboteda/open_plc_arduino/releases/download/0.1.3/open_plc_arduino-0.1.3.tar.gz",
-          "archiveFileName": "open_plc_arduino-0.1.3.tar.gz",
-          "checksum": "SHA-256:EAA84443588C2B593F1C884E5D76F7F08E27EB78CE497CDACE97D1196CE7A096",
-          "size": "17489354",
+          "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_PKG/releases/download/0.1.3/OpenPLC_Arduino_PKG-0.1.3.tar.gz",
+          "archiveFileName": "OpenPLC_Arduino_PKG-0.1.3.tar.gz",
+          "checksum": "SHA-256:91206FD4C428418C678CE96036CE09EBF092B3573B1C15FC89356B71DE72FB3B",
+          "size": "17501297",
           "boards": [
             {      "name": "H743IIKx Alpha"  }
           ],
@@ -46,10 +45,10 @@
           "architecture": "stm32",
           "version": "0.1.3-pre",
           "category": "Contributed",
-          "url": "https://github.com/haliboteda/open_plc_arduino/archive/refs/tags/v0.1.3-pre.zip",
-          "archiveFileName": "open_plc_arduino-0.1.3-pre.zip",
-          "checksum": "SHA-256:80F46A188B4282E6C244C1A9A7D2A5F8643B2A24486F413FF733A29D481BF4BE",
-          "size": "11276626",
+          "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_PKG/releases/download/v0.1.3-pre/OpenPLC_Arduino_PKG-0.1.3-pre.tar.gz",
+          "archiveFileName": "OpenPLC_Arduino_PKG-0.1.3-pre.tar.gz",
+          "checksum": "SHA-256:62D3BB10C2ABDBA8C43B2DFD5DF6103EE826C9DFB34994DF427B29C83EF89EDD",
+          "size": "9811556",
           "boards": [
             {      "name": "H743IIKx Alpha"  }
           ],
@@ -81,10 +80,10 @@
           "architecture": "stm32",
           "version": "0.1.2",
           "category": "Contributed",
-          "url": "https://github.com/haliboteda/open_plc_arduino/archive/refs/tags/v0.1.2.zip",
-          "archiveFileName": "open_plc_arduino-0.1.2.zip",
-          "checksum": "SHA-256:3A10B3502970381E164347E5139FFEB583C060F3DDAF9E58DF51F0335EEE8D63",
-          "size": "10977515",
+          "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_PKG/releases/download/v0.1.2/OpenPLC_Arduino_PKG-0.1.2.tar.gz",
+          "archiveFileName": "OpenPLC_Arduino_PKG-0.1.2.tar.gz",
+          "checksum": "SHA-256:916F28119915FACCFF11246B7438A100357BBD9E3F678292511804236F59A96B",
+          "size": "9621275",
           "boards": [
             {      "name": "H743IIKx Alpha"  }
           ],
@@ -116,10 +115,10 @@
           "architecture": "stm32",
           "version": "0.1.1",
           "category": "Contributed",
-          "url": "https://github.com/haliboteda/open_plc_arduino/archive/refs/tags/v0.1.1.zip",
-          "archiveFileName": "open_plc_arduino-0.1.1.zip",
-          "checksum": "SHA-256:3f2230c83f4b9036ab841a0493da3e0e9b34d24f87a7a3206f4a8343e41e5183",
-          "size": "9837080",
+          "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_PKG/releases/download/v0.1.1/OpenPLC_Arduino_PKG-0.1.1.tar.gz",
+          "archiveFileName": "OpenPLC_Arduino_PKG-0.1.1.tar.gz",
+          "checksum": "SHA-256:91DB17183A96C954161255CCE6AFF0CD55D16A7B5B1A6EA7FBA03997D94D04AB",
+          "size": "8784837",
           "boards": [
             {      "name": "H743IIKx Alpha"  }
           ],
@@ -151,10 +150,10 @@
           "architecture": "stm32",
           "version": "0.1.0",
           "category": "Contributed",
-          "url": "https://github.com/haliboteda/open_plc_arduino/archive/refs/tags/v0.1.0.zip",
-          "archiveFileName": "open_plc_arduino-0.1.0.zip",
-          "checksum": "SHA-256:6fe7d0e521cccbb37b513b2061c1a8f4cb038a47b230b8d1931b62a741528f6e",
-          "size": "9835161",
+          "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_PKG/releases/download/v0.1.0/OpenPLC_Arduino_PKG-0.1.0.tar.gz",
+          "archiveFileName": "OpenPLC_Arduino_PKG-0.1.0.tar.gz",
+          "checksum": "SHA-256:F524FD3C44152D45DF7825A92D5C16263809EF82A10F8A1D50004ACAAAE88CD9",
+          "size": "8783860",
           "boards": [
             {      "name": "H743IIKx Alpha"  }
           ],
@@ -320,28 +319,28 @@
           "systems": [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/0.1.3/STM32Tools.tar.gz",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/0.1.3/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
               "checksum": "SHA-256:AD19277C80366BC247E34EC395AAC3B0F7BBC515EF849974A0BE649FD7C93A55",
               "size": "13287280"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/0.1.3/STM32Tools.tar.gz",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/0.1.3/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
               "checksum": "SHA-256:AD19277C80366BC247E34EC395AAC3B0F7BBC515EF849974A0BE649FD7C93A55",
               "size": "13287280"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/0.1.3/STM32Tools.tar.gz",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/0.1.3/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
               "checksum": "SHA-256:AD19277C80366BC247E34EC395AAC3B0F7BBC515EF849974A0BE649FD7C93A55",
               "size": "13287280"
             },
             {
               "host": "i686-pc-linux-gnu",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/0.1.3/STM32Tools.tar.gz",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/0.1.3/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
               "checksum": "SHA-256:AD19277C80366BC247E34EC395AAC3B0F7BBC515EF849974A0BE649FD7C93A55",
               "size": "13287280"
@@ -354,28 +353,28 @@
           "systems": [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.2/STM32Tools.tar.gz",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/v0.1.2/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
               "checksum": "SHA-256:ECD0F752528F90F3F1D77CB07D70C18913E98EC0CF688CA280E11F694C8EA586",
               "size": "9996281"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.2/STM32Tools.tar.gz",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/v0.1.2/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
               "checksum": "SHA-256:ECD0F752528F90F3F1D77CB07D70C18913E98EC0CF688CA280E11F694C8EA586",
               "size": "9996281"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.2/STM32Tools.tar.gz",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/v0.1.2/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
               "checksum": "SHA-256:ECD0F752528F90F3F1D77CB07D70C18913E98EC0CF688CA280E11F694C8EA586",
               "size": "9996281"
             },
             {
               "host": "i686-pc-linux-gnu",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.2/STM32Tools.tar.gz",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/v0.1.2/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
               "checksum": "SHA-256:ECD0F752528F90F3F1D77CB07D70C18913E98EC0CF688CA280E11F694C8EA586",
               "size": "9996281"
@@ -388,28 +387,28 @@
           "systems": [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools.tar.gz",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/v0.1.1/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
               "checksum": "SHA-256:9e8606d978fbb1b678664a1933a6439fb09acd64a6ac0454e9343eb6c42c4350",
               "size": "8244483"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools.tar.gz",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/v0.1.1/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
               "checksum": "SHA-256:9e8606d978fbb1b678664a1933a6439fb09acd64a6ac0454e9343eb6c42c4350",
               "size": "8244483"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools.tar.gz",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/v0.1.1/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
               "checksum": "SHA-256:9e8606d978fbb1b678664a1933a6439fb09acd64a6ac0454e9343eb6c42c4350",
               "size": "8244483"
             },
             {
               "host": "i686-pc-linux-gnu",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.1/STM32Tools.tar.gz",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/v0.1.1/STM32Tools.tar.gz",
               "archiveFileName": "STM32Tools.tar.gz",
               "checksum": "SHA-256:9e8606d978fbb1b678664a1933a6439fb09acd64a6ac0454e9343eb6c42c4350",
               "size": "8244483"
@@ -422,28 +421,28 @@
           "systems": [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.0/STM32Tools.zip",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/v0.1.0/STM32Tools.zip",
               "archiveFileName": "STM32Tools.zip",
               "checksum": "SHA-256:aefd9f3186a083693e97a33687f1b13bc02654b33664b8e3365c6feb7703c781",
               "size": "4439857"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.0/STM32Tools_mac.tar.gz",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/v0.1.0/STM32Tools_mac.tar.gz",
               "archiveFileName": "STM32Tools_mac.tar.gz",
               "checksum": "SHA-256:8668b3a1e2c40e2a721977219b3ec4d963bf0363606be6e97407963725e9e21c",
               "size": "1857251"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.0/STM32Tools_linux.zip",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/v0.1.0/STM32Tools_linux.zip",
               "archiveFileName": "STM32Tools_linux.zip",
               "checksum": "SHA-256:b1951f48302eda472168a7a8a1678c6baf256a86cd2b6310c275aa0b85565072",
               "size": "2015381"
             },
             {
               "host": "i686-pc-linux-gnu",
-              "url": "https://github.com/haliboteda/Arduino_Tools/releases/download/v0.1.0/STM32Tools_linux.zip",
+              "url": "https://github.com/OpenPLCs/OpenPLC_Arduino_Tool/releases/download/v0.1.0/STM32Tools_linux.zip",
               "archiveFileName": "STM32Tools_linux.zip",
               "checksum": "SHA-256:b1951f48302eda472168a7a8a1678c6baf256a86cd2b6310c275aa0b85565072",
               "size": "2015381"
